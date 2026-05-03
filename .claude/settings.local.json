@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /home/ubuntu/public-linter/examples/demo)",
+      "Bash(mv /home/ubuntu/public-linter/src /home/ubuntu/public-linter/deps.edn /home/ubuntu/public-linter/examples/demo/)",
+      "Bash(export PATH=\"/home/ubuntu/.local/bin:$PATH\")",
+      "Bash(rm -rf /home/ubuntu/public-linter/.clj-kondo/.cache)",
+      "Bash(clj-kondo --lint examples/demo/src)",
+      "Bash(clojure --version)",
+      "Bash(mkdir -p /home/ubuntu/public-linter/resources/clj-kondo.exports/public-linter/public-linter/hooks)",
+      "Bash(mv /home/ubuntu/public-linter/.clj-kondo/config.edn /home/ubuntu/public-linter/resources/clj-kondo.exports/public-linter/public-linter/config.edn)",
+      "Bash(mv /home/ubuntu/public-linter/.clj-kondo/hooks/privacy.clj /home/ubuntu/public-linter/resources/clj-kondo.exports/public-linter/public-linter/hooks/privacy.clj)",
+      "Bash(rm -rf /home/ubuntu/public-linter/.clj-kondo)"
+    ]
+  }
+}

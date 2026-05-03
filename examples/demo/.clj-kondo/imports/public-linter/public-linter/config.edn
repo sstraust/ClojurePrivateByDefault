@@ -1,0 +1,2 @@
+{:hooks {:macroexpand {clojure.core/defn hooks.privacy/defn}}
+ :linters {:private-call {:level :warning}}}

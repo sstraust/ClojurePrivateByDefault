@@ -1,0 +1,1 @@
+["^ ","~$run",["^ ","~:row",5,"~:col",1,"~:fixed-arities",["~#set",[0]],"~:name","^0","~:ns","~$public-linter.other","~:top-ns","^7","~:arities",["^ ","~i0",["^ ","~:ret","~:string"]],"~:type","~:fn"],"~:filename","/home/ubuntu/public-linter/examples/demo/src/public_linter/other.clj"]

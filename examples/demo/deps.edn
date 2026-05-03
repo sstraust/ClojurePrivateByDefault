@@ -1,0 +1,5 @@
+{:paths ["src"]
+ :deps {org.clojure/clojure {:mvn/version "1.12.0"}
+        public-linter/public-linter {:local/root "../.."}}
+ :aliases
+ {:run {:main-opts ["-m" "public-linter.core"]}}}
